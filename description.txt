@@ -1,0 +1,18 @@
+Design Choices:
+
+Function Usage: The code utilizes a function, checkans, to encapsulate the logic of checking user answers. This promotes code reusability and readability by isolating the decision-making process into a separate function.
+Question Format: Each question is presented in a clear format with numbered options. This helps users easily understand and select their answers.
+Score Tracking: The code keeps track of the user's score by updating it after each correct answer. This provides immediate feedback to the user on their progress.
+Pass/Fail Feedback: The final score is displayed along with a passing score of 25. The user is informed whether they passed or failed based on their score.
+Formatted Output: The code uses triple-quoted strings for multi-line strings, making it easier to format and present questions. Additionally, newline characters are used to enhance the readability of the final output.
+
+Features:
+
+Multiple Questions: The code supports multiple-choice questions, allowing users to answer each question by inputting the corresponding option number.
+Scoring System: A simple scoring system awards 10 points for each correct answer. The final score is then compared to a passing score to determine the user's success.
+User Interaction: The code uses input to get user responses, providing an interactive experience. It also prints informative messages for correct and incorrect answers.
+
+Considerations:
+Output Formatting: Ensuring proper formatting for readability was a consideration. The use of triple-quoted strings and newline characters improves the overall appearance of the questions and final output.
+Scalability: The code can be easily extended to include more questions by following a similar format. However, as the number of questions increases, maintaining readability may become a consideration.
+Pass/Fail Determination: The passing score is set at 25, but this value can be adjusted based on desired difficulty. Deciding on an appropriate passing score involves balancing challenge and achievability.
